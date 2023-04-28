@@ -1,3 +1,5 @@
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome,
@@ -37,3 +39,15 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
+
+---
+
+## Credits 
+
+Tim Nelson from Code Institute - for the walkthrough tutorial
+
+Start Bootstrap template:
+https://startbootstrap.com/theme/clean-blog
+
+Pictures and content are taken from
+https://lotr.fandom.com/wiki/Thorin_and_Company
