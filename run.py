@@ -14,17 +14,17 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/about")
-def about():
+@app.route("/members")
+def members():
     data = []
     with open("data/company.json", "r") as json_data:
         data = json.load(json_data)
 
-    return render_template("about.html", page_title="About", company=data)
+    return render_template("members.html", page_title="Members", company=data)
 
 
-@app.route("/about/<member_name>")
-def about_member(member_name):
+@app.route("/members/<member_name>")
+def members_member(member_name):
     member = {}
     with open("data/company.json", "r") as json_data:
         data = json.load(json_data)
@@ -41,11 +41,6 @@ def contact():
             request.form.get("name")
         ))
     return render_template("contact.html", page_title="Contact")
-
-
-@app.route("/careers")
-def careers():
-    return render_template("careers.html", page_title="Careers")
 
 
 if __name__ == "__main__":
