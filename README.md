@@ -31,10 +31,6 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ---
 
-Happy coding!
-
----
-
 ## Credits 
 
 Tim Nelson from Code Institute - for the walkthrough tutorial
