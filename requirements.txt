@@ -34,7 +34,7 @@ SQLAlchemy==1.4.46
 sqlparse==0.4.2
 toml==0.10.2
 typing_extensions==4.5.0
-urllib3==1.26.15
+urllib3==1.26.17
 virtualenv==20.22.0
 virtualenv-clone==0.5.7
 Werkzeug==2.2.3
